@@ -32,6 +32,7 @@ TASK 2: Creating the CLTV Data Structure
            Create a new cltv dataframe with the values 
            2.customer_id, recency_cltv_weekly, T_weekly, frequency and monetary_cltv_avg.
            Monetary value will be expressed as average value per purchase, recency and tenure values will be expressed in weekly terms.
+           
 TASK 3: BG/NBD, Establishing Gamma-Gamma Models, Calculating CLTV
             1. Fit the BG/NBD model.
                  a. Estimate expected purchases from customers in 3 months and add exp_sales_3_month to cltv dataframe.
@@ -40,6 +41,7 @@ TASK 3: BG/NBD, Establishing Gamma-Gamma Models, Calculating CLTV
             3. Calculate 6 months CLTV and add it to the dataframe with the name cltv.
                  a. Standardize the cltv values you calculated and create the scaled_cltv variable.
                  b. Observe the 20 people with the highest Cltv value.
+
 TASK 4: Creating Segments by CLTV
            1. Divide all your customers into 4 groups (segments) according to the 6-month standardized CLTV and add the group names to the dataset. Add it to the dataframe with the name cltv_segment.
            2. Make short 6-month action suggestions to the management for 2 groups you will choose from among 4 groups.
