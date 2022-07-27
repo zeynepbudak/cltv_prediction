@@ -20,12 +20,13 @@ The dataset consists of information obtained from the past shopping behaviors of
 - interested_in_categories_12 : Müşterinin son 12 ayda alışveriş yaptığı kategorilerin listesi
 
 TASK 1: Preparing the Data
-1. Read the flo_data_20K.csv data. Make a copy of the dataframe. 
-2. Define the outlier_thresholds and replace_with_thresholds functions required to suppress outliers.
-Note: Frequency values must be integer when calculating cltv. Therefore, round the lower and upper limits with round(). 
-3. Suppress "order_num_total_ever_online","order_num_total_ever_offline","customer_value_total_ever_offline","customer_value_total_ever_online" if there are outliers.
-4. Omnichannel means that customers shop from both online and offline platforms. Create new variables for each customer's total purchases and spend. 
-5. Examine the variable types. Change the type of variables that express date to date.
+
+     1. Read the flo_data_20K.csv data. Make a copy of the dataframe. 
+     2. Define the outlier_thresholds and replace_with_thresholds functions required to suppress outliers.
+     Note: Frequency values must be integer when calculating cltv. Therefore, round the lower and upper limits with round(). 
+     3. Suppress "order_num_total_ever_online","order_num_total_ever_offline","customer_value_total_ever_offline","customer_value_total_ever_online" if there are outliers.
+     4. Omnichannel means that customers shop from both online and offline platforms. Create new variables for each customer's total purchases and spend. 
+     5. Examine the variable types. Change the type of variables that express date to date.
 
 TASK 2: Creating the CLTV Data Structure
            
