@@ -32,7 +32,7 @@ TASK 2: Creating the CLTV Data Structure
       
      1. Take 2 days after the date of the last purchase in the data set as the date of analysis. Create a new cltv dataframe with the values 
            
-     2.customer_id, recency_cltv_weekly, T_weekly, frequency and monetary_cltv_avg. Monetary value will be expressed as average value per purchase, recency and tenure values will be expressed in weekly terms.
+     2. customer_id, recency_cltv_weekly, T_weekly, frequency and monetary_cltv_avg. Monetary value will be expressed as average value per purchase, recency and tenure values will be expressed in weekly terms.
            
 TASK 3: BG/NBD, Establishing Gamma-Gamma Models, Calculating CLTV
             
